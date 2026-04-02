@@ -25,6 +25,8 @@
     <ul>
       <li id="start">Login</li>
       <li"><a href="https://uaral.me">Register</a></li>
+      <!-- Add a form for users to complete -->
+    <form action="appi/v1/journal" method="get"></form>
     </ul>
     <!-- Hero Section -->
     <h1>Mindful living for the digital world</h1>
@@ -63,10 +65,12 @@
     </p>
     <!-- CTA Section / using id tag-->
     <h3> <a href="#start">Get Started Now</a></h3>
-    <p>Made with <span style="color: red">❤︎</span> in London</p>
+<h3>Create Journal</h3>
+<form action="api/v1/journals" method="post">
+  <input type="text" name="Title" placeholder="give a title">
+</form>
 
-    <form action="appi/v1/journal" method="post"></form>
-    <!-- Add ICONS -->
+    <p>Made with <span style="color: red">❤︎</span> in London</p>
     <ul>
       <li><a href="https://www.instagram.com/"> <img src="images/instalog" alt="instagram" width="20"></a></li>
       <li><a href="https://www.facebook.com/login/"> <img src="images/icons8-facebook.svg" width="20" alt="facebook"></a></li>
